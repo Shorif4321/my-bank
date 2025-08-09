@@ -30,12 +30,6 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     const newBalance = previousBalance + inputAmount;
     balanceField.innerText = newBalance
 
-
     // clear
     inputField.value = ''
-
-
-
-
-
 })
